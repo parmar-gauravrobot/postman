@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family:'arial';
-  
 }
 body{
   width: 100vw;
@@ -67,11 +66,7 @@ a{
   font-weight: 600;
   color: rgb(33, 33, 33);
   letter-spacing: 0.64px;
-  /* font-stretch: ultra-expanded; */
   line-height: 36px;
-  /* text-rendering: geometricprecision;
-  text-size-adjust: 100%;
-  font-feature-settings :"calt" */
 }
 .heading p{
   font-size: 22px;
@@ -115,7 +110,6 @@ a{
 .rightSection{
   width: 65%;
   margin-left: 1em;
-  /* border: 5px solid black; */
 }
 .leftSection h4{
   font-size: 24px;
@@ -123,10 +117,8 @@ a{
   letter-spacing: 0.64;
   line-height: 27.4286px;
   margin-bottom: 16px;
-  margin-top: 20px;
+  margin-top: 1.5em;
   line-height :27.14px
-
-
 }
 .leftSection p{
   font-size: 16px;
@@ -201,4 +193,12 @@ a{
  width: 40%;
  align-items: center;
  text-align: center;
+}
+.thirdSection{
+  padding-top: 4em;
+  padding-bottom: 5em;
+  display: flex;
+  align-items: center;
+  border-bottom:1px solid  #E6E6E6;
+
 }
